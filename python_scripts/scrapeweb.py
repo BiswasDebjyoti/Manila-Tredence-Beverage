@@ -13,6 +13,7 @@ ws = wb.add_sheet("sheet 1")
 url="https://www.yelp.com/search?find_desc=Grocery+Store&find_loc=Manila,+Metro+Manila,+Philippines&start="
 for x in range(0,520,10):
     _url=url+str(x)
+    #create a request
     r = requests.get(_url)
     #create a BS instance using the request data
     soup = BeautifulSoup(r.content,"lxml")
