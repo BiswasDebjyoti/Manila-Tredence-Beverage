@@ -4,8 +4,7 @@ import xlwt
 #This is for educational purposes only I dont have the permission to use their data for commercial use
 #add request
 count = 0
-_count = 0
-counter = 0
+
 #create a spreadsheet file
 wb=xlwt.Workbook()
 #create a sheet
