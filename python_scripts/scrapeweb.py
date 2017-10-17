@@ -27,11 +27,10 @@ for x in range(0,520,10):
         except:
             pass
         address=item.contents[1].contents[3].contents[1].text
-        #print name
-        #print rating
+        
         _address=str(address.replace('\n            ','',1))
 
-        #print _address
+        
         
         if rating != None :
             if item.contents[1].contents[3].contents[1].text!=None:
