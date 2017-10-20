@@ -5,7 +5,7 @@ reader = csv.DictReader(open('/home/debjyoti/Desktop/Manila-Tredence-Beverage/xl
 dict_list = []
 for line in reader:
     dict_list.append(line)
-pprint.pprint(dict_list)
+
 
 def lister():
     return dict_list
