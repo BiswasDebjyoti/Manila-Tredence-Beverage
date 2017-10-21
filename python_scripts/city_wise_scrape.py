@@ -48,11 +48,12 @@ for i in munci:
                 if addr!=None:
                 
                     count = count + 1
+                    ws=wb.get_sheet(i+' City')
                     ws.write(count-1,0,name)
                     ws.write(count-1,1,city)
                     ws.write(count-1,2,addr)
                     ws.write(count-1,3,phn)
-        #ws=wb.get_sheet(n)
+        
         wb.save("/home/debjyoti/Desktop/Manila-Tredence-Beverage/xls_files/BeveragesYelpData.xls")   
 
 
