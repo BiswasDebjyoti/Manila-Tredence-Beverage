@@ -1,4 +1,4 @@
-		DONT TRY TO BE SMART. DO IT ON LOCAL MACHINE.USE PYTHON 3
+		DONT TRY TO BE SMART. DO IT ON LOCAL MACHINE.USE PYTHON
 
 
 Vids=https://www.youtube.com/watch?v=aIPqt-OdmS0&pbjreload=10
@@ -61,6 +61,12 @@ Analysis of site impact on overall store network
 
 
 Philipines Avg per capita earning-3,951
+
+Matplotlib data about  each points
+
+While grocery shopping people look for the nearest
+
+While cafes or beverages they look for ratings
 
 
 
